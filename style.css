@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=IBM+Plex+Mono:wght@300&family=Indie+Flower&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #E3E3E3;
+}
+
+header {
+    background: url(https://images.pexels.com/photos/6788000/pexels-photo-6788000.jpeg), lightgray 0px -289.895px / 100% 228.571% no-repeat;;
+    background-position: center;
+    background-size: 100%;
+    height: 420px;
+    box-shadow: 0px 131px 250px -81px #000 inset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer {
+    background-color: black;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p {
+    color: #FFF;
+    font-size: 16px;
+    font-family: IBM Plex Mono;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+main {
+    margin: 32px 43px 32px 42px;
+}
+
+.texto-inicio h1 {
+    color: #FFF;
+    text-align: center;
+    font-size: 128px;
+    font-family: Anonymous Pro;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.texto-inicio h3 {
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-family: Anonymous Pro;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.separador {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    margin: 32px 0px 32px 0 ;
+    width: 100%;
+}
+
+.separador p {
+    margin: 0px 16px ;
+    color: #000;
+    text-align: center;
+    font-size: 24px;
+    font-family: Anonymous Pro;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.separador img {
+    align-self: center;
+}
+
+.divisor-direita {
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+.passo-box {
+    background-color: #FFF;
+    width: 254px;
+    height: 313px;
+    border-radius: 10%;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 16px 40px;
+}
+
+.passo-box iframe{
+    background: url("https://svg-files.pixelied.com/15f023d2-7b34-46b3-8f32-920020b4f673/pixelied-dance.svg"), 238px 203px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 238px;
+    height: 203px;
+    margin: 24px 8px 0px 8px;
+}
+
+.passo-box p {
+    margin-top: 26px;
+    color: #000;
+    text-align: center;
+    font-size: 24px;
+    font-family: Indie Flower;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.bloco-passos {
+    margin: 0px 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; 
+    flex-wrap: wrap;
+}
